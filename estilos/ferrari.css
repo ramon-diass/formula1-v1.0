@@ -1,3 +1,7 @@
+:root{
+    --cor-equipe: #F91536;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +21,7 @@ header > img{
 }
 
 nav{
-    background-color: #F91536;
+    background-color: var(--cor-equipe);
     display: flex;
     justify-content: center;
     border-radius: 5px;
@@ -27,7 +31,6 @@ nav > a{
     text-decoration: none;
     color: #fff;
     text-transform: capitalize;
-    font-family: var(--fontepadrao);
     font-size: 18px;
     padding: 23.5px;
     transition-duration: 0.3s;
@@ -40,7 +43,7 @@ nav > a:hover{
 main{
     max-width: 1090px;
     margin: auto;
-    background-color: #F91536;
+    background-color: var(--cor-equipe);
     border-radius: 70px;
 }
 
@@ -74,8 +77,8 @@ section > p{
 }
 
 .piloto{
-    border: 5px solid #F91536;
-    box-shadow: 0px 0px 10px #F91536;
+    border: 5px solid var(--cor-equipe);
+    box-shadow: 0px 0px 10px var(--cor-equipe);
     border-radius: 10px;
     width: 300px;
     height: 600px;
@@ -114,7 +117,7 @@ ul > li{
 
 footer{
     margin: auto;
-    background-color: #F91536;
+    background-color: var(--cor-equipe);
     color: #fff;
     padding: 10px 0;
     margin-top: 5px;
