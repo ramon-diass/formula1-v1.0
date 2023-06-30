@@ -1,3 +1,7 @@
+:root{
+    --cor-equipe: #EE0000;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +21,7 @@ header > img{
 }
 
 nav{
-    background-color: #EE0000;
+    background-color: var(--cor-equipe);
     display: flex;
     justify-content: center;
     border-radius: 5px;
@@ -27,7 +31,6 @@ nav > a{
     text-decoration: none;
     color: #fff;
     text-transform: capitalize;
-    font-family: var(--fontepadrao);
     font-size: 18px;
     padding: 23.5px;
     transition-duration: 0.3s;
@@ -40,7 +43,7 @@ nav > a:hover{
 main{
     max-width: 1090px;
     margin: auto;
-    background-color: #EE0000;
+    background-color: var(--cor-equipe);
     border-radius: 70px;
     
 }
