@@ -1,0 +1,140 @@
+:root{
+    --cor-equipe: #37BEDD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: auto;
+}
+
+header > img{
+    width: 30%;
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav{
+    background-color: var(--cor-equipe);
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 23.5px;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover{
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+main{
+    max-width: 1090px;
+    margin: auto;
+    background-color: var(--cor-equipe);
+    border-radius: 70px;
+}
+
+section{
+    max-width: 990px;
+    margin: auto;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+section > img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+section > h1{
+    padding: 15px;
+    font-size: 30px;
+}
+
+section > p{
+    text-indent: 20px;
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 5px 15px;
+}
+
+.equipe{
+    display: flex; 
+}
+
+.piloto{
+    border: 5px solid var(--cor-equipe);
+    box-shadow: 0px 0px 10px var(--cor-equipe);
+    border-radius: 10px;
+    width: 300px;
+    height: 600px;
+    margin: auto;    
+}
+
+.piloto > h3{
+    padding: 10px 0 5px 0;
+    text-align: center;
+}
+
+.piloto > img{
+    width: 250px;
+    height: 350px;
+    display: block;
+    margin: auto;
+}
+
+ul > li{
+    list-style-type: none;
+}
+
+.dados{
+    padding: 10px 0 5px 0;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+.informacao{
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: right;
+    margin-top: 20px;
+}
+
+footer{
+    margin: auto;
+    background-color: var(--cor-equipe);
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 5px;
+}
+
+footer > p{
+    padding: 10px 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#github{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#github:hover{
+    text-decoration: underline;
+}
