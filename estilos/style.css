@@ -14,16 +14,21 @@ body{
 }
 
 header > img{
-    width: 30%;
+    width: 500px;
     display: block;
     margin: auto;
     padding: 20px 0;
 }
 
+#burguer{
+    display: none;
+}
+
 nav{
     background-color: var(--cor-equipe);
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
     border-radius: 5px;
 }
 
@@ -32,7 +37,7 @@ nav > a{
     color: #fff;
     text-transform: capitalize;
     font-size: 18px;
-    padding: 23.5px;
+    padding: 20.5px 16.7px;
     transition-duration: 0.3s;
 }
 
@@ -45,7 +50,6 @@ main{
     margin: auto;
     background-color: var(--cor-equipe);
     border-radius: 70px;
-    
 }
 
 section{
