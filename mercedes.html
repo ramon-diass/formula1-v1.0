@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercedes</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/mercedes.css">
+    <link rel="stylesheet" href="estilos/responsivoequipes.css">
 </head>
-<body>
+<body onresize="tela()">
     <header>
         <img src="imagens/formula-1-banner.png" alt="Logo fórmula 1">
-        <nav>
+        <div id="burguer" class="material-icons" onclick="clickMenu()">menu</div>
+        <nav id="itens">
             <a href="index.html">Início</a>
             <a href="redbull.html">red bull</a>
             <a href="ferrari.html">ferrari</a>
@@ -65,5 +68,22 @@
         <p>Site desenvolvido por Ramon Araujo, para fins de estudo.</p>
         <p>GitHub: <a href="https://github.com/ramon-diass" target="_blank" id="github">ramon-diass</a></p>
     </footer>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+
+        function tela(){
+            if (window.innerWidth >= 992){
+                itens.style.display = 'block'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>
