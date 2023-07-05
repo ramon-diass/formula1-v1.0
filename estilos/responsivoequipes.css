@@ -1,5 +1,49 @@
 @media (max-width: 600px) {
+    #burguer{
+        background-color: var(--cor-equipe);
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    #burguer:hover{
+        color: black;
+    }
+
     header > nav{
         display: none;
+    }
+
+    header > nav > a{
+        display: block;
+        text-align: center;
+        border: 1px solid #fff;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    main{
+        width: 96vw;
+    }
+
+    main > section > h1{
+        font-size: 22px;
+    }
+
+    main > section > p{
+        font-size: 15px;
+    }
+
+    .equipe{
+        display: grid;
+        gap: 50px;
+    }
+    
+    
+
+    footer{
+        font-size: 0.8em;
     }
 }
