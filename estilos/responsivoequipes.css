@@ -38,12 +38,29 @@
 
     .equipe{
         display: grid;
-        gap: 50px;
+        gap: 30px;
+    }
+
+    .piloto{
+        height: 460px;
+        width: 240px;
     }
     
-    
+    .piloto > h3{
+        font-size: 17px;
+    }
+
+    .piloto > img{
+        height: 260px;
+        width: 200px;
+    }
+
+    .dados{
+        font-size: 14px;
+    }
 
     footer{
         font-size: 0.8em;
     }
 }
+
