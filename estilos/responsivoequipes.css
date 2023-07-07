@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (min-width: 200px) {
     #burguer{
         background-color: var(--cor-equipe);
         color: white;
@@ -64,3 +64,80 @@
     }
 }
 
+@media (min-width: 600px) {
+    header > nav > a{
+        font-size: 16px;
+    }
+
+    main > section > h1{
+        font-size: 30px;
+    }
+
+    main > section > p{
+        font-size: 1.1em;
+    }
+
+    .equipe{
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) {
+    header > img{
+        width: 400px;
+    }
+    #burguer{
+        display: none;
+    }
+
+    header > nav{
+        display: flex;
+    }
+
+    header > nav > a{
+        font-size: 16px;
+        padding: 20px 11px 21px 11px;
+        border: 0;
+    }
+
+    main{
+        max-width: 950px;
+    }
+
+    section{
+        max-width: 880px;
+    }
+
+    .piloto{
+        height: 480px;
+        width: 240px;
+    }
+
+    .dados{
+        font-size: 16px;
+    }
+
+    footer{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    header > nav{
+        justify-content: center;
+        padding: 0; 
+    }
+
+    header > nav > a{
+        font-size: 17px;
+        padding: 20.5px 16.7px;
+    }
+
+    main{
+        max-width: 1090px;
+    }
+
+    section{
+        max-width: 990px;
+    }
+}
